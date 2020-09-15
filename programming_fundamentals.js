@@ -55,7 +55,7 @@
 const f = l => {// function f taking a parameter called l
   let es = 0, p = 0, c = 1, n = 0//four variables set to 0
   while (c <= l) {//while loop w/c less than or equal to l
-    n = c + p//setting n to value of c and p 
+    n = c + p;//setting n to value of c and p 
     // console.log(n)// This is me trying to see what this will output
     // console.log([c, p])// This is me trying to see what this will output
     [c, p] = [n, c]//c=1 p=0, n=1 since c + p = 1, then c runs through the loop
